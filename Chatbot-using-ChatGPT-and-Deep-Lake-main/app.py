@@ -12,7 +12,7 @@ from streamlit_chat import message
 load_dotenv()
 
 os.environ['OPENAI_API_KEY'] = os.getenv('OPENAI_API_KEY')
-ACTIVELOOP_TOKEN =eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJpZCI6ImFsYWdhcGllb2ZmaWNpYWwiLCJhcGlfa2V5IjoiMkd6Y3NDbzhXUEIyZ3BENFlzTnJvWkl6ZjFPakRwVHp0S2x0WTJ1VE5Td0pmIn0.
+ACTIVELOOP_TOKEN ="eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJpZCI6ImFsYWdhcGllb2ZmaWNpYWwiLCJhcGlfa2V5IjoiMkd6Y3NDbzhXUEIyZ3BENFlzTnJvWkl6ZjFPakRwVHp0S2x0WTJ1VE5Td0pmIn0."
 DEEPLAKE_ACCOUNT_NAME=alagapieofficial
 gemini_api_key=AIzaSyAf8HqQEmwg8JGPYt_kym-P6Vivz9wWlG8
 @st.cache_data
